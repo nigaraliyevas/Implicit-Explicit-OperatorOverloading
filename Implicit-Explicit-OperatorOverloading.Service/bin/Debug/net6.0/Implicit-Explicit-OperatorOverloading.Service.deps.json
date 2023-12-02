@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Implicit-Explicit-OperatorOverloading.Service/1.0.0": {
+        "dependencies": {
+          "Implicit-Explicit-OperatorOverloading.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Implicit-Explicit-OperatorOverloading.Service.dll": {}
+        }
+      },
+      "Implicit-Explicit-OperatorOverloading.Domain/1.0.0": {
+        "runtime": {
+          "Implicit-Explicit-OperatorOverloading.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Implicit-Explicit-OperatorOverloading.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Implicit-Explicit-OperatorOverloading.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

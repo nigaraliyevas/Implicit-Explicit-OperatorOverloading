@@ -11,6 +11,19 @@
         "runtime": {
           "bin/placeholder/Implicit-Explicit-OperatorOverloading.Domain.dll": {}
         }
+      },
+      "Implicit-Explicit-OperatorOverloading.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Implicit-Explicit-OperatorOverloading.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Implicit-Explicit-OperatorOverloading.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Implicit-Explicit-OperatorOverloading.Service.dll": {}
+        }
       }
     }
   },
@@ -19,11 +32,16 @@
       "type": "project",
       "path": "../Implicit-Explicit-OperatorOverloading.Domain/Implicit-Explicit-OperatorOverloading.Domain.csproj",
       "msbuildProject": "../Implicit-Explicit-OperatorOverloading.Domain/Implicit-Explicit-OperatorOverloading.Domain.csproj"
+    },
+    "Implicit-Explicit-OperatorOverloading.Service/1.0.0": {
+      "type": "project",
+      "path": "../Implicit-Explicit-OperatorOverloading.Service/Implicit-Explicit-OperatorOverloading.Service.csproj",
+      "msbuildProject": "../Implicit-Explicit-OperatorOverloading.Service/Implicit-Explicit-OperatorOverloading.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Implicit-Explicit-OperatorOverloading.Domain >= 1.0.0"
+      "Implicit-Explicit-OperatorOverloading.Service >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -53,8 +71,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Task-4_09.10.23\\Implicit-Explicit-OperatorOverloading\\Implicit-Explicit-OperatorOverloading.Domain\\Implicit-Explicit-OperatorOverloading.Domain.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Task-4_09.10.23\\Implicit-Explicit-OperatorOverloading\\Implicit-Explicit-OperatorOverloading.Domain\\Implicit-Explicit-OperatorOverloading.Domain.csproj"
+            "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Task-4_09.10.23\\Implicit-Explicit-OperatorOverloading\\Implicit-Explicit-OperatorOverloading.Service\\Implicit-Explicit-OperatorOverloading.Service.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\Code Academy\\Tasks\\Task-4_09.10.23\\Implicit-Explicit-OperatorOverloading\\Implicit-Explicit-OperatorOverloading.Service\\Implicit-Explicit-OperatorOverloading.Service.csproj"
             }
           }
         }

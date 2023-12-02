@@ -16,3 +16,5 @@ C:\Users\User\Desktop\Code Academy\Tasks\Task-4_09.10.23\Implicit-Explicit-Opera
 C:\Users\User\Desktop\Code Academy\Tasks\Task-4_09.10.23\Implicit-Explicit-OperatorOverloading\Implicit-Explicit-OperatorOverloading\obj\Debug\net6.0\Implicit-Explicit-OperatorOverloading.pdb
 C:\Users\User\Desktop\Code Academy\Tasks\Task-4_09.10.23\Implicit-Explicit-OperatorOverloading\Implicit-Explicit-OperatorOverloading\obj\Debug\net6.0\Implicit-Explicit-OperatorOverloading.genruntimeconfig.cache
 C:\Users\User\Desktop\Code Academy\Tasks\Task-4_09.10.23\Implicit-Explicit-OperatorOverloading\Implicit-Explicit-OperatorOverloading\obj\Debug\net6.0\ref\Implicit-Explicit-OperatorOverloading.dll
+C:\Users\User\Desktop\Code Academy\Tasks\Task-4_09.10.23\Implicit-Explicit-OperatorOverloading\Implicit-Explicit-OperatorOverloading\bin\Debug\net6.0\Implicit-Explicit-OperatorOverloading.Service.dll
+C:\Users\User\Desktop\Code Academy\Tasks\Task-4_09.10.23\Implicit-Explicit-OperatorOverloading\Implicit-Explicit-OperatorOverloading\bin\Debug\net6.0\Implicit-Explicit-OperatorOverloading.Service.pdb

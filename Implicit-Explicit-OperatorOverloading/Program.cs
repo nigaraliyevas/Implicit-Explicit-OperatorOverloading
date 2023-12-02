@@ -1,7 +1,9 @@
 ﻿using Implicit_Explicit_OperatorOverloading.Domain.Models;
+using Implicit_Explicit_OperatorOverloading.Service.Interfaces;
+using Implicit_Explicit_OperatorOverloading.Service.Services;
 #region task-1
-/*Kelvin ve Celsius(selsi) adli iki temperaturu gosteren klasslarimiz var ve 
-Degree adli property-leri var. Celcius uchun implicit operatorunu yazin: (0C=273K) */
+//Kelvin ve Celsius(selsi) adli iki temperaturu gosteren klasslarimiz var ve 
+//Degree adli property-leri var. Celcius uchun implicit operatorunu yazin: (0C = 273K)
 
 /*Console.WriteLine("<==========Kelvin To Celsius==========>");
 Kelvin kelvin = new(500);
@@ -18,5 +20,8 @@ Salary propertileri olacaq. Employelerin icinden metoda iki ferqli tarix ve sala
 Dogum gunu hemin tarixler arasinda olan ve maashi 2000 - den boyuk olan ishcilerin sayini 
 gosteren method yazin. Employeelerin dogum gunu tarixlerini constructordan gonderin. */
 #endregion
-Employee employee = new();
-employee.GetCount(200, 1000, new DateTime(1998, 01, 01), new DateTime(2005, 01, 01));
+IEmployeeServices employeeServices = new EmployeeServices();
+var startDate = new DateTime(1995, 01, 01);
+var endDate = new DateTime(1999, 01, 01);
+var res=employeeServices.GetCountFilterByBirthdayAndSalary(startDate,endDate,1000);
+Console.WriteLine(res);
