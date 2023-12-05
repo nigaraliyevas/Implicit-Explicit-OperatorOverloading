@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Implicit_Explicit_OperatorOverloading.Domain.Models.Common
+﻿namespace Implicit_Explicit_OperatorOverloading.Domain.Models.Common
 {
     public class BaseEntity
     {
